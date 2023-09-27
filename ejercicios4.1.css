@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(137, 64, 64);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#areaTexto{
+    width: 480px;
+    height: 200px;
+    background-color: rgb(43, 110, 102);
+    border-radius: 5px;
+}
+
+#areaOperacion{
+    
+    display: flex;
+}
+#numeros{
+    
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 40px 40px 40px 40px;
+    gap: 10px;
+    width: 360px;
+}
+#operaciones{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    width: 120px;
+}
+.botonNum{
+    background-color: rgb(159, 210, 233);
+    width: 110px;
+    height: 40px;
+}
+.botonOper{
+    background-color: rgb(156, 169, 174);
+    width: 110px;
+    height: 40px;
+}
